@@ -16,7 +16,6 @@ def main():
         CommandHandler("start", start)
     )
 
-    print("Bot started...")
     app.run_polling()
 
 if __name__ == "__main__":
